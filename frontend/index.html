@@ -2,11 +2,16 @@
 <html>
 <head>
   <title>Heart Rate Monitor</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Heart Rate Monitor</h1>
   <p>Heart Rate: <span id="heartRateValue">-</span></p>
   <button id="startButton">Start Data Retrieval</button>
+  <p>Average Resting Heart Rate: <span id="avgRestHeartRate">-</span></p>
+  <button id="averageButton">Get Resting Average</button>
+  <progress id="progress-bar" value="0" max="20"></progress>
   <script src="script.js"></script>
+
 </body>
 </html>

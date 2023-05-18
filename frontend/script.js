@@ -1,3 +1,6 @@
+let average = 0;
+const progressBar = document.getElementById('progress-bar');
+
 // Function to start the data retrieval
 function startDataRetrieval() {
   // Make a request to start the data retrieval process on the server
@@ -31,3 +34,6 @@ document.getElementById('startButton').addEventListener('click', startDataRetrie
 
 // Fetch and display the heart rate every second
 setInterval(getHeartRate, 1000); // Interval of 1 second (1000 milliseconds)
+
+
+
